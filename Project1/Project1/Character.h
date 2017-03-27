@@ -11,5 +11,7 @@ public:
 
 	std::string getName() { return _name; }
 	int getHealth() { return _health; }
+
+	std::string Attack();
 };
 

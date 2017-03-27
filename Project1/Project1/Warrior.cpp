@@ -10,3 +10,8 @@ Warrior::Warrior(std::string name, int startingHealth, std::string swordType) :
 Warrior::~Warrior()
 {
 }
+
+std::string Warrior::Taunt()
+{
+	return "FALCON PUNCH\n";
+}

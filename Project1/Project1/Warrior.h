@@ -8,5 +8,6 @@ private:
 public:
 	Warrior(std::string name, int startingHealth, std::string swordType);
 	~Warrior();
+	std::string Taunt();
 };
 

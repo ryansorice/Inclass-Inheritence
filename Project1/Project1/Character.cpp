@@ -9,3 +9,8 @@ Character::Character(std::string name, int startingHealth) : _name(name), _healt
 Character::~Character()
 {
 }
+
+std::string Character::Attack()
+{
+	return _name + " attacks!\n";
+}
